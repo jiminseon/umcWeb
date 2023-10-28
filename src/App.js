@@ -1,4 +1,4 @@
-import Movie from './Component/Movie'
+import Movie from './Component/Movie/Movie'
 import { movies } from './movieDummy';
 
 function App() {
@@ -12,6 +12,7 @@ function App() {
                title = {item.title}
                poster_path={item.poster_path}
                vote_average={item.vote_average}
+               overview={item.overview}
                />
             )
           })

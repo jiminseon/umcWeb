@@ -8,8 +8,12 @@ body {
     justify-content: center;
 }
 
+.container {
+    position: relative;
+}
 .movie-container {
     width: 250px;
+    height: 450px;
     margin: 16px;
     background-color: #373b69;
     color: white;
@@ -29,8 +33,21 @@ body {
 }
 .movie-info h4 {
     margin: 0;
+    margin-left: 5px;
 }
 
 .movie-info span {
     margin-left: 3px;
 }
+
+.movie-detail {
+    position: absolute; /*container에 맞춰짐*/
+    top: 0;
+    width: 250px;
+    height: 450px;
+    margin: 16px;
+    color: white;
+    word-break:break-all;
+    background-color: rgba(0,0,0,0.7);
+}
+
