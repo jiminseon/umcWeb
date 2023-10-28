@@ -5,6 +5,19 @@ export const container = styled.div`
     position: relative;
 `;
 
+
+export const movieDetail = styled.div`
+    position: absolute; /*container에 맞춰짐*/
+    width: 250px;
+    height: 450px;
+    margin: 16px;
+    color: white;
+    top: 0;
+    visibility: hidden;
+    word-break:break-all;
+    background-color: rgba(0,0,0,0.7);
+`;
+
 export const movieContainer = styled.div`
     width: 250px;
     height: 450px;
@@ -13,14 +26,11 @@ export const movieContainer = styled.div`
     color: white;
     border-radius: 5px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1, green, blue, alpha);
-`;
 
-export const movieDetail = styled(movieContainer)`
-    position: absolute; /*container에 맞춰짐*/
-    top: 0;
-    word-break:break-all;
-    background-color: rgba(0,0,0,0.7);
-`;
+    &:hover ~${movieDetail} {
+        visibility: visible ;
+    } 
+    `;
 
 export const poster = styled.img`
     max-width: 100%;

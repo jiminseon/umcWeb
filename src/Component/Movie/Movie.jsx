@@ -14,7 +14,7 @@ export default function Movie({ title, poster_path, vote_average, overview}) {
             <t.vote>{vote_average}</t.vote>
           </t.movieInfo>
         </t.movieContainer>
-        <t.movieDetail hidden>
+        <t.movieDetail>
           {title}
           <p>{overview}</p>
         </t.movieDetail>
