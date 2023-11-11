@@ -2,6 +2,6 @@ import React from 'react'
 
 export default function Celebirity() {
   return (
-    <div>Celebirity</div>
+    <div className='page-container'>Celebirity</div>
   )
 }

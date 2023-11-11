@@ -2,6 +2,6 @@ import React from 'react'
 
 export default function TV() {
   return (
-    <div>TV</div>
+    <div className='page-container'>TV</div>
   )
 }

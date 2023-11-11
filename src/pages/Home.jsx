@@ -3,7 +3,7 @@ import AdPage from '../Component/AdPage'
 
 export default function Home() {
   return (
-    <div>
+    <div >
       <AdPage/>
     </div>
   )

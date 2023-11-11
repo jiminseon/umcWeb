@@ -20,7 +20,7 @@ class AdPage extends Component {
             <div className='adContainer'>
                 <Ad adState={this.state.showAd} />
                 <button onClick={this.handleToggleClick}>
-                {this.state.showWarning ? '광고 안 보기' : '광고 보기'}
+                {this.state.showAd ? '광고 안 보기' : '광고 보기'}
                 </button>
             </div>
         );
