@@ -37,13 +37,20 @@ export default function Header() {
               </Link>
             </li>
             <li>
+              <Link className='header-nav-item' to='/loginPage'>
+                <button className='loginBtn'>
+                  로그인
+                </button> 
+              </Link>
+            </li>
+            {/* <li>
               <button className='loginBtn' onClick={handleToggleClick}>
                   {login ? '로그인' : '로그아웃'}
               </button>
             </li>
             <li>
-              <span style={{color: 'white'}}>{login ? '로그인을 해주세요!!' : '환영합니다!!'}</span>
-            </li>
+              <span style={{color: 'white'}}>{login ? '로그인을 해주세요!!' : '환영합니다!!'}</span> */}
+            {/* </li> */}
           </ul>
         </div>
       </div>

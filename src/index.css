@@ -61,3 +61,38 @@
     border-radius: 10px;
     color: black;
 }
+
+.login-container {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.login-container input {
+    width: 90%;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 10px;
+    border-color: lightgray;
+}
+
+.activeBtn {
+    background-color: rgb(10, 10, 59);
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    width: 88%;
+    border-radius: 40px;
+    height: 48px;
+    margin-top: 10px;
+    border: none;
+}
+
+.inactiveBtn {
+    background-color: lightgray;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    width: 88%;
+    border-radius: 40px;
+    height: 48px;
+    margin-top: 10px;
+    border: none;
+}
